@@ -31,8 +31,8 @@ Promise.all([
                     pays: entite.pays,
                     pays_fr: entite.pays,
 /*                    pays_en: entite.pays_en,*/
-                    domaine: entite.domaine,
-                    domaine_fr: entite.domaine,
+/*                    domaine: entite.domaine,
+                    domaine_fr: entite.domaine,*/
 /*                    domaine_en: entite.domaine_en,*/
                     description: entite.description,
                     description_fr: entite.description,
