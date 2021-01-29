@@ -155,8 +155,6 @@ Promise.all([
                     group: entite.relation_otlet,
                     image: './assets/photos/' + entite.photo,
                     genre: entite.genre,
-                    pays: entite.pays,
-                    pays_fr: entite.pays,
                     domaine: entite.domaine,
                     domaine_fr: entite.domaine,
                     description: entite.description,
