@@ -22,21 +22,15 @@ Promise.all([
                     label: entite.label,
                     title: (entite.titre || ''),
                     title_fr: (entite.titre || ''),
-/*                    title_en: (entite.titre_en || ''),*/
                     group: entite.relation_otlet,
                     image: './assets/photos/' + entite.photo,
                     genre: entite.genre,
-/*                    annee_naissance: entite.annee_naissance,
-                    annee_mort: entite.annee_mort,*/
                     pays: entite.pays,
                     pays_fr: entite.pays,
-/*                    pays_en: entite.pays_en,*/
-/*                    domaine: entite.domaine,
-                    domaine_fr: entite.domaine,*/
-/*                    domaine_en: entite.domaine_en,*/
+                    domaine: entite.domaine,
+                    domaine_fr: entite.domaine,
                     description: entite.description,
                     description_fr: entite.description,
-/*                    description_en: entite.description_en,*/
                     lien_wikipedia: entite.lien_wikipedia,
         
                     // node style
